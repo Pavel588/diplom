@@ -7,7 +7,7 @@ const toggleModal = () => {
     document.addEventListener('click', (event) => {
         
         let target = event.target;
-        console.log(target);
+        
         if (target.matches('a.callback-btn')) {
             overlay.style.display = 'block';
             menu.style.display = 'block';
@@ -18,6 +18,5 @@ const toggleModal = () => {
         }
     });
 
-    
 };
 export default toggleModal;
