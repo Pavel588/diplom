@@ -166,7 +166,7 @@ class CarouselServices{
         };
         checkResponse();
 
-        window.addEventListener('resize', checkResponse)
+        window.addEventListener('resize', checkResponse);
     }
 }
 

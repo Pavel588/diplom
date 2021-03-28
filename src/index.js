@@ -4,7 +4,7 @@ import smoothScroll from './modules/smoothScroll';
 import topSlider from './modules/topSlider';
 import CarouselServices from './modules/carouselServices';
 import accordeon from './modules/accordeon';
-
+import scrollTop from './modules/scrollTop';
 
 //togglePopUp
 toggleModal();
@@ -43,4 +43,7 @@ carousel.init();
 // Аккордеон
 
 accordeon();
+
+// Скролл к топу
+scrollTop();
 
