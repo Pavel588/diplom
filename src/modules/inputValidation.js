@@ -46,9 +46,6 @@ const inputValidation = () => {
     }, true); 
     
     
-    const gopr = document.querySelector('.form-control');
-    console.log('gopr: ', gopr);
-    const goprSAd = document.querySelector('.tel');
-    console.log('goprSAd: ', goprSAd);
+   
 };
 export default inputValidation;

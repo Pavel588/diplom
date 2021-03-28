@@ -1,15 +1,18 @@
 const topSlider = () => {
         const sliderItems = document.querySelectorAll('.item');
+        const textSlider = document.querySelectorAll('.table');
         
         let slideIndex = 0,
             interval,
             slide = sliderItems[slideIndex];
-            
-            
+        for(let i = 0; i < textSlider.length; i++) {
+            textSlider[i].style.visibility = 'visible';
+            textSlider[i].style.opacity = '1'; 
+        }
+        
         
         const nextSlide = () => {
             slide.style.display = 'block';
-                    
         };
 
         const prevSlide = () => {
