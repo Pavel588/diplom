@@ -3,6 +3,7 @@ import toggleModal from './modules/toggleModal';
 import smoothScroll from './modules/smoothScroll';
 import topSlider from './modules/topSlider';
 import CarouselServices from './modules/carouselServices';
+import accordeon from './modules/accordeon';
 
 
 //togglePopUp
@@ -35,8 +36,11 @@ const options = {
         slidesToShow: 1,
     },
     ]
-}
+};
 const carousel = new CarouselServices(options);
 carousel.init();
 
+// Аккордеон
+
+accordeon();
 
